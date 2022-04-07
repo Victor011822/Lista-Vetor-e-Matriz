@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex18Matriz {
+public class MatrizEx18 {
 
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
@@ -8,7 +8,7 @@ public class Ex18Matriz {
 		int v[] = new int[3];
 		int i, j;
 		
-		System.out.println("Leitura e impress„o de uma matriz 3 x 3...");
+		System.out.println("Leitura e impress√£o de uma matriz 3 x 3...");
 		System.out.println("Carregando a matriz 3 x 3...");
 		for(i=0; i<v.length; i++) { v[i] = 0; }
 		
