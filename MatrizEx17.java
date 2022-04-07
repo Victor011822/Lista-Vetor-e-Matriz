@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex17Matriz {
+public class MatrizEx17 {
 
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class Ex17Matriz {
             arrContNotas[indiceCont] += 1;
         }
         for (i = 0; i < arrContNotas.length; i++) {
-            System.out.printf("Na 1ª PROVA, %d de %d alunos tiraram a menor nota", arrContNotas[i], mat.length);
+            System.out.printf("Na 1Âª PROVA, %d de %d alunos tiraram a menor nota", arrContNotas[i], mat.length);
             System.out.println("");
         }
     }
