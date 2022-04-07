@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Ex1Matriz {
+public class MatrizEx1 {
 
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
 		int mat[][] = new int[4][4];
 		int i, j;
-		System.out.println("Leitura e impress„o de uma matriz 4 x 4...");
+		System.out.println("Leitura e impress√£o de uma matriz 4 x 4...");
 		System.out.println("Carregando a matriz 4 x 4...");
 
 		for (i = 0; i < 4; i++) {
