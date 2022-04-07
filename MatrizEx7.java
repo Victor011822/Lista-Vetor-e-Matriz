@@ -1,10 +1,10 @@
 
-public class Ex7Matriz {
+public class MatrizEx7 {
 //feito
 	public static void main(String[] args) {
 		int A[][] = new int[10][10];
 		int i, j;
-		System.out.println("Leitura e impress„o de uma matriz 10 x 10...");
+		System.out.println("Leitura e impress√£o de uma matriz 10 x 10...");
 		System.out.println("Carregando a matriz 10 x 10...");
 	
 		System.out.println("\nMatriz de 10x10 na tela:\n");
