@@ -1,10 +1,10 @@
 
-public class Ex2Matriz {
+public class MatrizEx2 {
 //feito
 	public static void main(String[] args) {
 		int mat[][] = new int[5][5];
 		int i, j;
-		System.out.println("Leitura e impress„o de uma matriz 5 x 5...");
+		System.out.println("Leitura e impress√£o de uma matriz 5 x 5...");
 		System.out.println("Carregando a matriz 5 x 5...:\n");
 		
 		for ( i=0; i<5; i++) {
