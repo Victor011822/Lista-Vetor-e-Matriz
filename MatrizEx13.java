@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Ex13Matriz {
+public class MatrizEx13 {
 //feito
 	public static void main(String[] args) {
 		
