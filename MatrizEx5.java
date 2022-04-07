@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex5Matriz {
+public class MatrizEx5 {
 //feito
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class Ex5Matriz {
 		int linha = 0;
 		int coluna = 0;		
 		
-		System.out.println("Leitura e impress„o de uma matriz 5 x 5...");
+		System.out.println("Leitura e impress√£o de uma matriz 5 x 5...");
 		System.out.println("Carregando a matriz 5 x 5...");
 		
 		for(i=0; i<5; i++) {
@@ -29,7 +29,7 @@ public class Ex5Matriz {
 			System.out.printf("\n");
 		}
 		
-		System.out.println("\nEntre com o n˙mero a ser procurado["+x+"]:");
+		System.out.println("\nEntre com o n√∫mero a ser procurado["+x+"]:");
 		x = ent.nextInt();
 	    for(i = 0; i < 5 ; i++){
 	        for(j = 0; j < 5 ; j++){
@@ -43,10 +43,10 @@ public class Ex5Matriz {
 	    }
 	    
 	    if(verificador == 's'){
-	        System.out.printf("N˙mero %d encontrado na linha %d e na coluna %d ", x , linha, coluna);
+	        System.out.printf("N√∫mero %d encontrado na linha %d e na coluna %d ", x , linha, coluna);
 	       
 	    }else{
-	       System.out.println("N˙mero n„o encontrado");
+	       System.out.println("N√∫mero n√£o encontrado");
 	    }
 	}
 }
