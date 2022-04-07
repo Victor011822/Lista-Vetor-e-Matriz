@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Ex8Matriz {
+public class MatrizEx8 {
 //feito
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
 		int mat[][] = new int[3][3];
 		int i, j;
 		int resultado = 0;
-		System.out.println("Leitura e impress„o de uma matriz 3 x 3...");
+		System.out.println("Leitura e impress√£o de uma matriz 3 x 3...");
 		System.out.println("Carregando a matriz 3 x 3...");
 		
 		for(i=0; i<3; i++) {
@@ -30,7 +30,7 @@ public class Ex8Matriz {
 				resultado = mat[0][1] + mat[0][2] + mat[1][2];	
 			}
 		}
-		System.out.printf("A soma È: %1d", resultado);
+		System.out.printf("A soma √©: %1d", resultado);
 	}
 
 }
