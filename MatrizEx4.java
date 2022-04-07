@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex4Matriz {
+public class MatrizEx4 {
 //feito
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
@@ -8,7 +8,7 @@ public class Ex4Matriz {
 		int maior = 0;
 		int imaior = 0;
 		int jmaior = 0;
-		System.out.println("Leitura e impress„o de uma matriz 4 x 4...");
+		System.out.println("Leitura e impress√£o de uma matriz 4 x 4...");
 		System.out.println("Carregando a matriz 4 x 4...");
 		
 		for(i=0; i<4; i++) {
@@ -38,7 +38,7 @@ public class Ex4Matriz {
 	            System.out.printf("\n");
 	           
 	        }
-		 System.out.printf("O maior elemento È %d, localizado em %d x %d.", maior, imaior, jmaior);
+		 System.out.printf("O maior elemento √© %d, localizado em %d x %d.", maior, imaior, jmaior);
 		 
 	}
 }
