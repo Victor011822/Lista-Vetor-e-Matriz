@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Ex10Matriz {
+public class MatrizEx10 {
 //feito
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
 		int mat[][] = new int[3][3];
 		int i, j;
 		int resultado = 0;
-		System.out.println("Leitura e impress„o de uma matriz 3 x 3...");
+		System.out.println("Leitura e impress√£o de uma matriz 3 x 3...");
 		System.out.println("Carregando a matriz 3 x 3...");
 		
 		for(i=0; i<3; i++) {
@@ -32,7 +32,7 @@ public class Ex10Matriz {
 				
 			}
 		}
-		System.out.printf("A soma da diagonal È: %1d", resultado);
+		System.out.printf("A soma da diagonal √©: %1d", resultado);
 	}
 
 }
