@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex6Matriz {
+public class MatrizEx6 {
 //feito
 	public static void main(String[] args) {
 		Scanner ent = new Scanner(System.in);
@@ -7,7 +7,7 @@ public class Ex6Matriz {
 		int mat2 [][] = new int[4][4];
 		int mat3 [][] = new int[4][4];
 		int i, j;
-		System.out.println("Leitura e impress„o de uma matriz 4 x 4...");
+		System.out.println("Leitura e impress√£o de uma matriz 4 x 4...");
 		System.out.println("Carregando a matriz 4 x 4...");
 		
 		for(i=0; i<4; i++) {
