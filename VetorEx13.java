@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExVetor13 {
+public class VetorEx13 {
 
 	public static void main(String[] args) {
 	    Scanner input = new Scanner (System.in);
