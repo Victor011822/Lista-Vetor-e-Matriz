@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ex15Matriz {
+public class MatrizEx15 {
 
 
 public static void main(String[] args) {
@@ -21,7 +21,7 @@ public static void main(String[] args) {
 		
 		for (int i = 0; i < prova.length; i++) {
 			System.out.printf("Prova do aluno %02d: ", i + 1);
-			System.out.println("\nDigite suas respostas nas questões: ");
+			System.out.println("\nDigite suas respostas nas questÃµes: ");
 			System.out.println("As respostas tem que ser A, B, C e D");
 			for (int j = 0; j < prova[0].length; j++) {
 				answer4now = cod;
@@ -65,7 +65,7 @@ public static void main(String[] args) {
 			System.out.println(resultado[i]);
 		}
 		
-		System.out.println("\nO Gabarito é: ");
+		System.out.println("\nO Gabarito Ã©: ");
 		for (int q = 0; q < gabarito.length; q++) {
 			char alt = gabarito[q];
 			System.out.printf("Alternativa %02d): %s", q + 1, alt);
